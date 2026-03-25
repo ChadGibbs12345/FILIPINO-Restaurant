@@ -3,138 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IRMA's Website</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Filipino Turo Turo - Authentic Filipino Silog Restaurant</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar__container">
-            <a href="#home" id="navbar__logo">IRMA'S PAMPANGA</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="#home" class="navbar__links" id="home-page"> HOME </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#about" class="navbar__links" id="about-page"> ABOUT </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#menu" class="navbar__links" id="menu-page"> MENU </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#location" class="navbar__links" id="location-page"> LOCATION </a>
-                </li>    
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Filipino Turo Turo</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#location" class="nav-link">Location</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <!-- Intro Section -->
-     <div class="intro" id="home">
-      <div class="intro__container">
-        <h1 class="intro__heading">Try great food from the city of <span>PAMPANGA, Phillipines.</span></h1>
-        <br>
-        <p class="intro__description">Unlimited Possibilities</p>
-        <button class="main__btn">
-            <a href="#">EXPLORE</a></button>
-      </div>
-     </div>
 
-     <!-- About Section-->
-      <div class="main" id="about">
-       <div class="main__container">
-        <div class="main__img--container">
-          <div class="main__img--card"><i><img src="Dine03_0111-XL.jpg" width="400" height="300"></i></div>  
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Filipino Turo Turo</h1>
+            <p class="hero-subtitle">Authentic Filipino Cafeteria-Style Dining</p>
+            <p class="hero-text">Experience the flavors of the Philippines with our signature Silog dishes</p>
+            <a href="#menu" class="hero-button">View Menu</a>
         </div>
-        <div class="main__content">
-            <h1>Why choose IRMA'S?</h1>
-            <h2>Very good food from the city of Pampanga in the Phillipines.</h2>
-            <p>CALL number for takeout and pay at IRMA's when ready!</p>
-            <button class="main__btn"><a href="https://www.doordash.com/store/irmas-pampanga-restaurant-san-francisco-611560/2531644/">ORDER HERE</a></button>
-        </div>
-       </div>
-      </div>
+    </section>
 
-      <!-- Menu Section-->
-       <div class="menu" id="menu">
-        <h1>Our Menu</h1>
-        <div class="menu__wrapper">
-            <div class="menu__food">
-                <h2>Adobo</h2>
-                <p>$13.99</p>
-                <img src="k_Photo_Recipes_2024-04-filipino-adobo_filipino-adobo-426.jpg" height="300">
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>What is Turo-Turo?</h2>
+                <p class="section-subtitle">
+                    A Filipino cafeteria-style dining experience where you point to what you want
+                </p>
             </div>
-             <div class="menu__food">
-                <h2>Sinigang</h2>
-                <p>$15.99</p>
-                <img src="sinigang-baboy-7.jpg" height="300">
-            </div>
-             <div class="menu__food">
-                <h2>Caldaretta</h2>
-                <p>$16.99</p>
-                <img src="filipino-beef-caldereta-FEATURE-SQUARE.jpg" height="300">
-            </div>
-             <div class="menu__food">
-                <h2>Lumpia</h2>
-                <p>$20.99</p>
-                <img src="201113_Lumpia-Shanghai_550.jpg" height="300">
-            </div>
-             <div class="menu__food">
-                <h2>Adobo</h2>
-                <p>$13.99</p>
-                <img src="k_Photo_Recipes_2024-04-filipino-adobo_filipino-adobo-426.jpg" height="300">
-            </div>
-             <div class="menu__food">
-                <h2>Sinigang</h2>
-                <p>$15.99</p>
-                <img src="sinigang-baboy-7.jpg" height="300">
-            </div>
-             <div class="menu__food">
-                <h2>Caldaretta</h2>
-                <p>$16.99</p>
-                <img src="filipino-beef-caldereta-FEATURE-SQUARE.jpg" height="300">
-            </div>
-             <div class="menu__food">
-                <h2>Lumpia</h2>
-                <p>$20.99</p>
-                <img src="201113_Lumpia-Shanghai_550.jpg" height="300">
-            </div>
-             <div class="menu__food">
-                <h2>Adobo</h2>
-                <p>$13.99</p>
-                <img src="k_Photo_Recipes_2024-04-filipino-adobo_filipino-adobo-426.jpg" height="300">
-            </div>
-             <div class="menu__food">
-                <h2>Sinigang</h2>
-                <p>$15.99</p>
-                <img src="sinigang-baboy-7.jpg" height="300">
-            </div>
-             <div class="menu__food">
-                <h2>Caldaretta</h2>
-                <p>$16.99</p>
-                <img src="filipino-beef-caldereta-FEATURE-SQUARE.jpg" height="300">
-            </div>
-             <div class="menu__food">
-                <h2>Lumpia</h2>
-                <p>$20.99</p>
-                <img src="201113_Lumpia-Shanghai_550.jpg" height="300">
+            <div class="about-content">
+                <p>
+                    "Turo-Turo" literally means "point-point" in Tagalog. It's a beloved Filipino dining concept 
+                    where you simply point at the dishes you'd like to try from our display of freshly prepared 
+                    home-style Filipino favorites.
+                </p>
+                <p>
+                    We specialize in Silog meals - the quintessential Filipino breakfast combination featuring 
+                    garlic fried rice (sinangag), a perfectly fried egg (itlog), and your choice of savory protein. 
+                    These hearty, flavorful dishes are enjoyed any time of day!
+                </p>
             </div>
         </div>
-       </div>
-       
-       <!-- Location Section -->
-        <div class="location" id="location">
-       <div class="location__container">
-        <div class="location__img--container">
-        <div class="location__content">
-            <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.065978611361!2d-122.42023432358732!3d37.76505111271922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e248ee71c89%3A0x1e869ca1d7ddf5e1!2sIrma&#39;s%20Pampanga!5e0!3m2!1sen!2sus!4v1750300189490!5m2!1sen!2sus" 
-            width="1346" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Silog Menu</h2>
+                <p class="section-subtitle">
+                    All dishes served with garlic fried rice and fried egg
+                </p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Tapsilog</h3>
+                        <span class="price">$7.99</span>
+                    </div>
+                    <p class="menu-description">Sweet marinated beef tapa, crispy and caramelized to perfection</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Bansilog</h3>
+                        <span class="price">$6.99</span>
+                    </div>
+                    <p class="menu-description">Filipino-style sweet longanisa sausage, bursting with flavor</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Pork Chop Silog</h3>
+                        <span class="price">$7.99</span>
+                    </div>
+                    <p class="menu-description">Tender marinated pork chop, grilled to juicy perfection</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Adobo Silog</h3>
+                        <span class="price">$7.99</span>
+                    </div>
+                    <p class="menu-description">Classic Filipino adobo - chicken braised in soy sauce, vinegar, and garlic</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Tocilog</h3>
+                        <span class="price">$7.99</span>
+                    </div>
+                    <p class="menu-description">Sweet cured pork tocino, a Filipino breakfast favorite</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Cornsilog</h3>
+                        <span class="price">$6.99</span>
+                    </div>
+                    <p class="menu-description">Filipino-style corned beef, savory and satisfying</p>
+                </div>
+            </div>
         </div>
-       </div>
-      </div>
-        
-    <script src="app.js"></script>
- </body>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2>Find Us</h2>
+                <p class="section-subtitle">
+                    Visit us in Pittsburg, CA
+                </p>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>Address</h3>
+                    <p>155 Atlantic Ave<br>Pittsburg, CA 94565</p>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.8547822890363!2d-121.88658688469172!3d38.02793797971641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80900d8c8b8b8b8b%3A0x8b8b8b8b8b8b8b8b!2s155%20Atlantic%20Ave%2C%20Pittsburg%2C%20CA%2094565!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p class="section-subtitle">
+                    Come hungry, leave happy!
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Hours</h3>
+                    <p>
+                        Mon-Sat: 8:30am - 7:00pm<br>
+                        Sunday: 9:30am - 6:00pm
+                    </p>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>(925) 432-0202</p>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                            <path d="m9 14 2 2 4-4"></path>
+                        </svg>
+                    </div>
+                    <h3>Delivery</h3>
+                    <a href="https://www.doordash.com/store/filipino-turoturo-pittsburg-27777241/32358365/?delivery=true&src=yp&utm_source_id=caa6d8f1-ee4a-4291-a172-4180ba5bc91f" target="_blank" rel="noopener noreferrer" class="delivery-button">
+                        Order on DoorDash
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>&copy; 2026 Filipino Turo Turo. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
 </html>
